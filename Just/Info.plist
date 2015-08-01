@@ -7,11 +7,11 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>io.range.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>io.range.$(PRODUCT_NAME:rfc1034identifier)$(PRODUCT_NAME_SUFFIX)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>$(PRODUCT_NAME)</string>
+	<string>$(PRODUCT_NAME)$(PRODUCT_NAME_SUFFIX)</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
