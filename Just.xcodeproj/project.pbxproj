@@ -21,6 +21,8 @@
 		DD7E5A3C1B6D84A600C4968A /* JSONTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A361B6D84A600C4968A /* JSONTypes.swift */; };
 		DD7E5A3D1B6D84A600C4968A /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A371B6D84A600C4968A /* REST.swift */; };
 		DD7E5A3F1B6D851200C4968A /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A3E1B6D851200C4968A /* UIApplicationExtension.swift */; };
+		DD7E5A411B6D886200C4968A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A401B6D886200C4968A /* Event.swift */; };
+		DD7E5A431B6D887D00C4968A /* EventExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A421B6D887D00C4968A /* EventExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		DD7E5A361B6D84A600C4968A /* JSONTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTypes.swift; sourceTree = "<group>"; };
 		DD7E5A371B6D84A600C4968A /* REST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
 		DD7E5A3E1B6D851200C4968A /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		DD7E5A401B6D886200C4968A /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DD7E5A421B6D887D00C4968A /* EventExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 			children = (
 				DD7E5A091B6D6EEA00C4968A /* AppDelegate.swift */,
 				DD7E5A0B1B6D6EEA00C4968A /* ViewController.swift */,
+				DD7E5A401B6D886200C4968A /* Event.swift */,
+				DD7E5A421B6D887D00C4968A /* EventExtension.swift */,
 				DD7E5A341B6D84A600C4968A /* JSONDecodable.swift */,
 				DD7E5A351B6D84A600C4968A /* JSONSyncable.swift */,
 				DD7E5A361B6D84A600C4968A /* JSONTypes.swift */,
@@ -311,7 +317,9 @@
 				DD7E5A3C1B6D84A600C4968A /* JSONTypes.swift in Sources */,
 				DD7E5A3B1B6D84A600C4968A /* JSONSyncable.swift in Sources */,
 				DD7E5A0C1B6D6EEA00C4968A /* ViewController.swift in Sources */,
+				DD7E5A431B6D887D00C4968A /* EventExtension.swift in Sources */,
 				DD7E5A3D1B6D84A600C4968A /* REST.swift in Sources */,
+				DD7E5A411B6D886200C4968A /* Event.swift in Sources */,
 				DD7E5A0A1B6D6EEA00C4968A /* AppDelegate.swift in Sources */,
 				DD7E5A3A1B6D84A600C4968A /* JSONDecodable.swift in Sources */,
 				DD7E5A3F1B6D851200C4968A /* UIApplicationExtension.swift in Sources */,
