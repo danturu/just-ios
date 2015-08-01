@@ -16,6 +16,11 @@
 		DD7E5A201B6D6EEA00C4968A /* JustTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A1F1B6D6EEA00C4968A /* JustTests.swift */; };
 		DD7E5A2D1B6D7DEF00C4968A /* Development.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A2B1B6D7DEF00C4968A /* Development.swift */; };
 		DD7E5A2E1B6D7DEF00C4968A /* Production.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A2C1B6D7DEF00C4968A /* Production.swift */; };
+		DD7E5A3A1B6D84A600C4968A /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A341B6D84A600C4968A /* JSONDecodable.swift */; };
+		DD7E5A3B1B6D84A600C4968A /* JSONSyncable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A351B6D84A600C4968A /* JSONSyncable.swift */; };
+		DD7E5A3C1B6D84A600C4968A /* JSONTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A361B6D84A600C4968A /* JSONTypes.swift */; };
+		DD7E5A3D1B6D84A600C4968A /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A371B6D84A600C4968A /* REST.swift */; };
+		DD7E5A3F1B6D851200C4968A /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E5A3E1B6D851200C4968A /* UIApplicationExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		DD7E5A1F1B6D6EEA00C4968A /* JustTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustTests.swift; sourceTree = "<group>"; };
 		DD7E5A2B1B6D7DEF00C4968A /* Development.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Development.swift; path = Environments/Development.swift; sourceTree = "<group>"; };
 		DD7E5A2C1B6D7DEF00C4968A /* Production.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Production.swift; path = Environments/Production.swift; sourceTree = "<group>"; };
+		DD7E5A341B6D84A600C4968A /* JSONDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
+		DD7E5A351B6D84A600C4968A /* JSONSyncable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSyncable.swift; sourceTree = "<group>"; };
+		DD7E5A361B6D84A600C4968A /* JSONTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTypes.swift; sourceTree = "<group>"; };
+		DD7E5A371B6D84A600C4968A /* REST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
+		DD7E5A3E1B6D851200C4968A /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,11 @@
 			children = (
 				DD7E5A091B6D6EEA00C4968A /* AppDelegate.swift */,
 				DD7E5A0B1B6D6EEA00C4968A /* ViewController.swift */,
+				DD7E5A341B6D84A600C4968A /* JSONDecodable.swift */,
+				DD7E5A351B6D84A600C4968A /* JSONSyncable.swift */,
+				DD7E5A361B6D84A600C4968A /* JSONTypes.swift */,
+				DD7E5A371B6D84A600C4968A /* REST.swift */,
+				DD7E5A3E1B6D851200C4968A /* UIApplicationExtension.swift */,
 				DD7E5A0D1B6D6EEA00C4968A /* Main.storyboard */,
 				DD7E5A101B6D6EEA00C4968A /* Images.xcassets */,
 				DD7E5A121B6D6EEA00C4968A /* LaunchScreen.xib */,
@@ -293,8 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7E5A3C1B6D84A600C4968A /* JSONTypes.swift in Sources */,
+				DD7E5A3B1B6D84A600C4968A /* JSONSyncable.swift in Sources */,
 				DD7E5A0C1B6D6EEA00C4968A /* ViewController.swift in Sources */,
+				DD7E5A3D1B6D84A600C4968A /* REST.swift in Sources */,
 				DD7E5A0A1B6D6EEA00C4968A /* AppDelegate.swift in Sources */,
+				DD7E5A3A1B6D84A600C4968A /* JSONDecodable.swift in Sources */,
+				DD7E5A3F1B6D851200C4968A /* UIApplicationExtension.swift in Sources */,
 				DD7E5A2E1B6D7DEF00C4968A /* Production.swift in Sources */,
 				DD7E5A2D1B6D7DEF00C4968A /* Development.swift in Sources */,
 			);
